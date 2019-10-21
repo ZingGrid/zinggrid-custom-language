@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <title>ZingGrid Custom Language (Internationalization)</title>
+
+    <script src="../locales/custom.js"></script>
+    <script src="https://cdn.zinggrid.com/zinggrid.min.js"></script>
+    <script>
+      console.log(customLang)
+      // if the custom language variable is available set the language
+      if (customLang) ZingGrid.registerLanguage(customLang, 'custom');
+    </script>
+    <style>
+        body {
+            background: #e6e6e6;
+        }
+ 
+        zing-grid[loading] {
+            height: 703px;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <zing-grid caption="Custom Language"
+      lang="custom" editor-controls layout-controls search pager page-size=10 lang="custom" src="https://jsdocs-9d00d.firebaseio.com/addressBook">
+    </zing-grid>
+    
+
+</body>
+ 
+</html>

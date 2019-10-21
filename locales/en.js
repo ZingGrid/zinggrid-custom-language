@@ -1,5 +1,5 @@
 /**
- * @file lang/en.js
+ * @file en.js
  * @description Add english text strings as variables for internationalization (i18n)
  * @param %v - Add this where you expect variable (dynamic) content. 
  * This will allow the translations to put it in the correct location
