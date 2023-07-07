@@ -91,10 +91,14 @@ var customLang = {
       successMsg: 'custom-Records removed successfully!',
     },
     version: {
-      body: 'custom-',
+      body: 'custom-built on',
       label: 'custom-Current Version',
     },
     save: 'custom-Save',
+  },
+  draggable: {
+    remove: 'custom-Release to hide',
+    reorder: 'custom-Drag outside grid to hide',
   },
   iconSet: {
     invalidVendor: 'custom-Value added to [%v] does not match allowed vendor list',
@@ -109,6 +113,7 @@ var customLang = {
     rows: 'custom-Rows',
   },
   tools: {
+    filter: 'custom-Filter',
     search: 'custom-Search',
     selected: 'custom-%v Item%p Selected',
   },
@@ -117,5 +122,17 @@ var customLang = {
     layoutRow: 'custom-Row Layout',
     recordCreate: 'custom-Insert Record',
     reload: 'custom-Reload Grid',
+    editrecord: 'custom-Edit Record',
+    firstpage: 'custom-Go to First Page',
+    fixedmenu: 'custom-Open Menu',
+    lastpage: 'custom-Go to Last Page',
+    menu: 'custom-Open Column Menu',
+    nextpage: 'custom-Go to Next Page', 
+    prevpage: 'custom-Go to Previous Page',
+    removerecord: 'custom-Remove Record',
+    search: 'custom-Open Search',
+  },
+  watermark: {
+    poweredBy: 'custom-Powered By <strong>ZingGrid</strong>',
   },
 };
